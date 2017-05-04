@@ -1,18 +1,22 @@
 Package: mc2Rd
 Type: Package
 Title: Personal package with functions used for thesis
-Version: 0.0.0.9005
-Date: 2017-04-15
+Version: 0.0.0.9009
+Date: 2017-04-16
 Author: Matt Cole
 Maintainer: Matt Cole <mattcole1093@gmail.com>
 Description: Functions that have accumulated involving factor analysis, 
-    missing data, parallel computing and machine learning methods, as well 
-    as graphics will be added here eventually. 
+    assessment of missing data, parallel computing and machine learning 
+    methods, as well 
+    as (various) graphics will be added here eventually. 
     Functions that involve factor analysis viz will eventually be
     moved to FAtools.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
+Depends: R (>= 3.1.0)
+Imports: 
+    MCMCpack
 Suggests: 
     testthat,
     FAtools,
