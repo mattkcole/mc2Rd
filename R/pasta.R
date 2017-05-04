@@ -4,11 +4,17 @@
 #'
 #' @param ob which row to plot - will change to make more general
 #' @param data data frame to plot
+#' @param data_dic data dictionary
+#'
+#' @importFrom lasagnar lasagna
+#' @importFrom dplyr "%>%"
+#' @importFrom RColorBrewer brewer.pal
+#' @importFrom graphics axis mtext
 #'
 #' @return A lasagna plot
-#'
+#' @export
 
-lasagna_mc <- function(ob, data){
+lasagna_mc <- function(ob, data, data_dic){
         x <- data[,c(ob,37 + ob, 37 * 2 + ob)] %>%
                 as.matrix()
         x <- x[do.call(order, c(decreasing = TRUE, data.frame(x[,1:3]))),]

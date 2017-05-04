@@ -4,12 +4,14 @@
 \alias{lasagna_mc}
 \title{Lasagna plot (Updated from bruce's)}
 \usage{
-lasagna_mc(ob, data)
+lasagna_mc(ob, data, data_dic)
 }
 \arguments{
 \item{ob}{which row to plot - will change to make more general}
 
 \item{data}{data frame to plot}
+
+\item{data_dic}{data dictionary}
 }
 \value{
 A lasagna plot
