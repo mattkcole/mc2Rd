@@ -1,7 +1,7 @@
 Package: mc2Rd
 Type: Package
 Title: Personal package with functions used for thesis
-Version: 0.0.0.9011
+Version: 0.0.0.9012
 Date: 2017-04-16
 Author: Matt Cole
 Maintainer: Matt Cole <mattcole1093@gmail.com>
@@ -16,6 +16,7 @@ Encoding: UTF-8
 LazyData: true
 Additional_repositories: https://github.com/swihart/lasagnar.git
 Depends: R (>= 3.1.0)
+Remotes: swihart/lasagnar
 Imports: 
     MCMCpack,
     lasagnar,
