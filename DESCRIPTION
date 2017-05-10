@@ -1,8 +1,8 @@
 Package: mc2Rd
 Type: Package
 Title: Personal package with functions used for thesis
-Version: 0.0.0.9012
-Date: 2017-04-16
+Version: 0.0.0.9013
+Date: 2017-05-10
 Author: Matt Cole
 Maintainer: Matt Cole <mattcole1093@gmail.com>
 Description: Functions that have accumulated involving factor analysis, 
@@ -16,7 +16,8 @@ Encoding: UTF-8
 LazyData: true
 Additional_repositories: https://github.com/swihart/lasagnar.git
 Depends: R (>= 3.1.0)
-Remotes: swihart/lasagnar
+Remotes: swihart/lasagnar,
+    mattkcole/FAtools
 Imports: 
     MCMCpack,
     lasagnar,
@@ -25,7 +26,6 @@ Imports:
     graphics,
     psych
 Suggests: 
-    testthat,
-    FAtools,
+    testthat
     devtools
 RoxygenNote: 6.0.1
