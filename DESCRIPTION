@@ -26,6 +26,6 @@ Imports:
     graphics,
     psych
 Suggests: 
-    testthat
+    testthat,
     devtools
 RoxygenNote: 6.0.1
